@@ -15,4 +15,4 @@ k = y
 if j == 3 or k == 3:
     if "3" in mynum:
             print(True)
-else: print(False)
+    else: print(False)
