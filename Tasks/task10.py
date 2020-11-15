@@ -1,8 +1,9 @@
-mylist = list(str(input("Pleaase enter the word: ", )))
+def task10(alist):
 
-mylist = (item.lower() for item in mylist)
-vowels = ['a', 'e', 'o', 'u']
+    alist = (item.lower() for item in alist)
+    vowels = ['a', 'e', 'o', 'u']
 
-for i in mylist:
-    if i in vowels:
-        print(i)
+    for i in alist:
+            if i in vowels:
+                print(i)
+task10('ThAmayIuoE')

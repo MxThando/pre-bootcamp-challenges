@@ -1,9 +1,9 @@
-list1 = list(str(input("Please type your first word: ", )))
-list2 = list(str(input("Please type in your second word: ", )))
+def task11(word1,word2):
+    word1 = [item.lower() for item in word1]
+    word2 = [item.lower() for item in word2]
+    vowels = ['a', 'e', 'o', 'u']
 
-list1 = [item.lower() for item in list1]
-list2 = [item.lower() for item in list2]
-
-for i in list1:
-    if i in list2:
-        print(i)
+    for i in word1:
+        if i in word2 and vowels:
+            print(i)
+task11('ThandOu','MapheUo')

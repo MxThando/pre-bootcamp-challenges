@@ -1,5 +1,7 @@
-x = 0
-for n in range(1000):
-    if n % 3 == 0 or n % 5 == 0:
-        x += n   
-print(x)
+def task9(x):
+
+    for n in range(x):
+        if n % 3 == 0 or n % 5 == 0:
+            x += n   
+    print(x)
+task9(1000)

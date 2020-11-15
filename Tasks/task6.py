@@ -1,14 +1,11 @@
-x = int(input("Please enter your first number: ",))
-y = int(input("Please enter your second number: ",))
-z = int(input("Please enter your third number: ",))
+def task6(x,y,z):
 
-
-if x > y and x > z:
-    print(x, "is the greatest number")
-elif y > z and y > x:
-    print(y, "is the greatest number")
-elif z > y and z > x:
-    print(z, "is the greatest number")
-
+    if x > y and x > z:
+        return(x)
+    elif y > z and y > x:
+        return(y)
+    elif z > y and z > x:
+        return(z)
+task6(22,35,32)
 
 

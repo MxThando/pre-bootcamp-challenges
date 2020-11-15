@@ -1,18 +1,16 @@
-x = int(input("Please input x: ", ))
-y = int(input("please input y: ", ))
+def task4(x,y):
+        a = int(x+y)
 
-a = int(x+y)
+        num = str(a)
 
+        j = x
+        k = y
 
-mynum = str(a)
-#print(type(mynum))
-#print(mynum)
-
-j = x
-k = y
-
-
-if j == 3 or k == 3:
-    if "3" in mynum:
-            print(True)
-    else: print(False)
+        if j == 3 or k == 3:
+                if "3" in num:
+                        return(True)
+                        #print(True)
+                else: 
+                        return(False)
+                        #print(False)
+task4(10,3)
