@@ -8,9 +8,9 @@ def task4(x,y):
 
         if j == 3 or k == 3:
                 if "3" in num:
-                        return(True)
+                        return True
                         
         else: 
-                 return(False)
+                 return False
                 
 task4(10,2)

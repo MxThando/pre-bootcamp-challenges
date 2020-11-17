@@ -5,7 +5,7 @@ def addition(x,y):
 	if x == 65 or y == 65:
 		return(True)
 	elif sum == 65:
-		return(True)
+		return True
 	else:
-		return(False)
+		return False
 addition(65,5)

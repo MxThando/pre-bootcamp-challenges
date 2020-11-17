@@ -5,7 +5,7 @@ def task6(x,y,z):
     elif y > z and y > x:
         return(y)
     elif z > y and z > x:
-        return(z)
+        return z
 task6(22,35,32)
 
 
