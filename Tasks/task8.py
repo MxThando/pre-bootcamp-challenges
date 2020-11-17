@@ -6,8 +6,12 @@ def task8(number):
 
     if hour < 1:
         print(f"{minute} minutes")
+        if minute <= 1:
+            print(f"{minute} minute")
     elif hour == 1:
         print(hour , f"hour and {minute} minutes")
+        if minute <=1:
+            print(hour , f"hour and {minute} minute")
     else:
         print(hour , f"hours and {minute} minutes")
-task8(133)
+task8(61)
