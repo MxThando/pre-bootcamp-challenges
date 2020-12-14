@@ -6,6 +6,5 @@ def task6(x,y,z):
         return y
     elif z > y and z > x:
         return z
+        
 task6(22,35,32)
-
-
