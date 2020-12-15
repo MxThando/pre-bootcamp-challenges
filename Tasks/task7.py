@@ -1,7 +1,6 @@
 def celcius_to_farenheit(conversion):
     conversion = int((conversion*1.8) + 32)
     return conversion
-        
 celcius_to_farenheit(32)
 
 def farenheit_to_calcius(conversion):
