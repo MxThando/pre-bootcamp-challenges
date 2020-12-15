@@ -9,4 +9,5 @@ def task11(word1,word2):
             if i in vowels:
                 print(i)
 
-task11('ThandOu','MapHeUo')
+if __name__ == '__main__':
+    task11('ThandOu','MapHeUo')
